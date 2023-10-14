@@ -1,0 +1,49 @@
+name: consultormasterapp
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #STYLE
+  google_fonts: ^4.0.3
+  cupertino_icons: ^1.0.2
+  animate_do: ^3.0.2
+
+  #GEOLOCATION
+  geolocator: ^10.0.1
+
+  #SCAN
+  google_mlkit_text_recognition: ^0.4.0
+
+  #Estado
+  provider: ^6.0.2
+  shared_preferences: ^2.0.15
+  permission_handler: ^10.2.0
+
+  #UTILS
+  fluttertoast: ^8.0.7
+  camera: ^0.10.0+4
+  finger_painter: ^1.1.0
+  file_picker: ^5.3.1
+  connectivity: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/
