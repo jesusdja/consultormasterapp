@@ -2,7 +2,8 @@
 
 import 'dart:async';
 
-import 'package:connectivity/connectivity.dart';
+//import 'package:connectivity/connectivity.dart';
+import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:consultormasterapp/global/send_data_background_provider.dart';
 import 'package:consultormasterapp/initial_page.dart';
 import 'package:flutter/material.dart';
@@ -16,7 +17,7 @@ enum ConnectStatus {
 
 class ConnectivityProvider extends ChangeNotifier {
 
-  ConnectStatus connectStatus = ConnectStatus.off;
+  ConnectStatus connectStatus = ConnectStatus.active;
   late StreamSubscription subscription;
 
   ConnectivityProvider() {

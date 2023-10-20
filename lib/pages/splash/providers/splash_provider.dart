@@ -17,14 +17,12 @@ class SplashProvider extends ChangeNotifier {
 
   Future initSplash() async {
     int login = SharedPreferencesLocal.masterLogin;
-
     if(login == 0){
       splashStatus = SplashStatus.login;
     }
     if(login == 1){
       splashStatus = SplashStatus.home;
     }
-    await Future.delayed(const Duration(seconds: 2));
     notifyListeners();
   }
 }
