@@ -33,6 +33,10 @@ class CreateRegisterNewProvider extends ChangeNotifier {
   bool get captureImage => _captureImage;
   set captureImage( bool value ){ _captureImage = value; notifyListeners(); }
 
+  bool _captureFinger = false;
+  bool get captureFinger => _captureFinger;
+  set captureFinger( bool value ){ _captureFinger = value; notifyListeners(); }
+
   Position? _location;
   Position? get location => _location;
   set location( Position? value ){ _location = value; notifyListeners(); }

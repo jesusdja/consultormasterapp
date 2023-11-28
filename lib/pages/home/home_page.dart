@@ -148,7 +148,7 @@ class _HomePageState extends State<HomePage> {
         children: [
           InkWell(
             onTap: (){
-              if(type == 1){
+              if(type == 2){
                 Navigator.push(context,MaterialPageRoute<void>(
                     builder: (context) => const CreateRegister()
                 ),);

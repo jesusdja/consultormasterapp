@@ -1,6 +1,8 @@
 import 'package:consultormasterapp/pages/home/menu/create_register/provider/create_register_provider.dart';
-import 'package:consultormasterapp/pages/home/menu/create_register/widgets/register_document_new.dart';
-import 'package:consultormasterapp/pages/home/menu/create_register/widgets/selected_type_register.dart';
+import 'package:consultormasterapp/pages/home/menu/create_register/widgets/capture_finger/capture_finger_page.dart';
+import 'package:consultormasterapp/pages/home/menu/create_register/widgets/capture_finger/result_huella.dart';
+import 'package:consultormasterapp/pages/home/menu/create_register/widgets/documents_news/register_document_new.dart';
+import 'package:consultormasterapp/pages/home/menu/create_register/widgets/documents_news/selected_type_register.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
